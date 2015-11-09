@@ -1,0 +1,209 @@
+/*9/11/2015*/
+body, html
+{
+	background-color: rgba(#000000, 0.79) !important;
+ /*background-image: url(http://datacouch.net/wp-content/uploads/2015/10/brown-dark-wood-floors-background-wood-floor-texture-design-dark-wood-floors-background.jpg);*/
+
+}
+.stick{
+	position: fixed;
+	background-color: #7dd4f0;
+	font-size: 20px;
+	top: 30%;
+
+}
+.brand-logo{
+  margin-left: 12px;
+}
+/*.brand{
+	color: #ff5722;
+	text-shadow: #ff8a65 2px 2px 0;
+
+}*/
+
+/*Shake Phone*/
+#animated-example {
+
+	width: 270px;
+	background-color: #ebc67f;
+	font-size: 15px;
+    -webkit-box-shadow: 0 4px 3px -3px black;
+       -moz-box-shadow: 0 4px 3px -3px black;
+            box-shadow: 0 4px 3px -3px black;
+            text-align: center;
+            /*padding: 80px;*/
+	}
+
+
+.animated {
+ 	-webkit-animation-name: pulse;
+ 	-webkit-animation-duration: 4s;
+ 	-webkit-animation-iteration-count: infinite	;
+ 	-webkit-animation-timing-function: ease-out;
+ 	-webkit-animation-fill-mode: forwards;
+
+ 	animation-name: pulse;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: ease-out;
+ 	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.side-nav{
+	background-color: #2b2b2b;
+	color: #b5b5b5;
+	width: 1000px;
+}
+.web-name h1{
+	color:#ff5722;
+	font-weight: bolder;
+	margin-left: 350px;
+	text-shadow:#ff8a65 4px 3px 0;
+}
+.nav-wrapper{
+  background-color: #383434;
+}
+.header-main{
+	padding-top: 10%;
+	padding-bottom: 33%;
+	margin-bottom: 0px;
+	background-image: url(http://images.all-free-download.com/images/graphiclarge/vector_food_pattern_241247.jpg);
+	background-size:cover;
+
+}
+.header-main-menu{
+	padding-top: 10%;
+	padding-bottom: 10%;
+  background-image: url(http://images.all-free-download.com/images/graphiclarge/vector_food_pattern_241247.jpg);
+  opacity: 0.6;
+}
+.categories{
+  background-color: #EDEDED;
+
+}
+center{
+  font-size: 40px;
+  font-family: ;
+  background-color: #383434;
+  color: #f4edee;
+}
+/*image hover effect*/
+.demo-3 {
+    position:relative;
+    width:300px;
+    height:300px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px
+}
+.demo-3 figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:
+}
+.demo-3 figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:0;
+    width:300px;
+    height:300px;
+}
+.demo-3 figure figcaption{
+    display:block;
+    position:absolute;
+    z-index:1;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.demo-3 figure h2 {
+    font-family:'Lato';
+    color:#fff;
+    font-size:20px;
+    text-align:left
+}
+.demo-3 figure p {
+    display:block;
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    text-align:left
+}
+.demo-3 figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:10px 15px;
+    background-color:rgba(26,76,110,0.5);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all 0.5s
+}
+.demo-3 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+.cuisine{
+  margin-top: -19px;
+  background-color: #EDEDED;
+}
+
+
+/*CSS for menu page*/
+.menu-header{
+	background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+	height: 200px;
+}
+.menu-helper-text{
+	position: relative;
+	top: 23%;
+	color: #3ad04e;
+	text-align: center;
+	font-size: 70px;
+}
+
+
+
+footer.page-footer{
+	margin-top: -20px !important;
+}
