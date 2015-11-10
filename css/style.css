@@ -201,7 +201,186 @@ center{
 	text-align: center;
 	font-size: 70px;
 }
+.main-menu{
+	background-color: #c6c6c6;
+	height: 1000px;
+}
+/*.menu-nav-bar{
+	background-color: #34cf84;
+	float: left;
+}
+.menu-nav-bar ul{
 
+}
+.menu-nav-bar li{
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	border-radius: 5px;
+}*/
+
+.tab_wrap{
+    border:1px solid #999;
+    max-width:300px;
+    width: 100%;
+}
+.tabs {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: #F9F9F9;
+}
+.tabs ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.tabs li a {
+    width:33%;
+    color: #444444;
+    display: block;
+    float: left;
+    font-weight:bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    border-left:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+}
+.tabs li a:hover {
+    color: #7d7d7d;
+    background:#FFFFFF;
+}
+.tabs li:first-child a {
+    border-left:none;
+}
+.tabs li a.active {
+    background:#FFFFFF;
+    border:none;
+    border-left:1px solid #d9d9d9;
+    border-bottom:1px solid #FFFFFF;
+}
+.tabs li:first-child a.active {
+    border:none;
+    border-bottom:1px solid #FFFFFF;
+}
+.tabs li:last-child a.active {
+    border:none;
+    border-left:1px solid #d9d9d9;
+    border-bottom:1px solid #FFFFFF;
+}
+.tab_content {
+    background:#FFF;
+    padding:0;
+    display:none;
+}
+.tab_content.active{
+    display:block;
+}
+.tab_content ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.tab_content li {
+    display:block;
+    overflow: hidden;
+    border-bottom:1px solid #d6dde0;
+}
+.tab_content li:last-child {
+    border-bottom:none;
+}
+.tab_content li a {
+    display:block;
+    list-style:none;
+    overflow: hidden;
+    padding:10px;
+    text-decoration:none;
+    color:#444444;
+}
+.tab_content li a:hover {
+    color:#000000;
+    background:#F5F5F5;
+}
+.tab_content li small {
+    color:#AAAAAA;
+    font-size:11px;
+    font-style:italic;
+}
+.tab_content li a:hover small {
+    color:#AAAAAA;
+}
+
+.chef-details{
+	height: 200px;
+	background-color: #a6afaa;
+	margin: 15px;
+}
+.chef-header{
+	padding-left: 10px;
+	padding-right: 5px;
+	/*float: right;*/
+	width: 100%;
+	background-color: #59ffaf;
+	height:50px;
+}
+.content{
+	background-color: #EDEDED;
+}
+.card-panel{
+	width: 180px;
+}
+.card-panel-img{
+	width: 125px;
+	height: 115px;
+	display: block;
+    margin-left:auto;
+    margin-right: auto;
+		margin-top: 10px;
+
+}
+.card-panel-price{
+	/*background-color: #44a476;*/
+	font-size: 15px;
+	font-weight: bolder;
+	padding-left: 10px;
+}
+.chef-today-menu{
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+.chef-today-menu-foods{
+	margin-left: 15px;
+}
+/*How it works*/
+.hiw{
+	background-color: #fff;
+	height: 400px;
+}
+.head {
+	text-align: center;
+	font-size: 25px;
+	background-color: #fff;
+	text-align: center;
+	height: 35px;
+}
+.hiw-process{
+	color:#ccc3cd;
+	text-align:center;
+	/*margin: 10px;*/
+
+}
+.hiw-process p{
+	text-align: left;
+	padding: 0px 1px 10px 0;
+	font-weight: normal;
+	color:#000;
+}
 
 
 footer.page-footer{
